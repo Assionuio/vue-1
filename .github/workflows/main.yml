@@ -36,7 +36,7 @@ jobs:
       - name: 构建目录
         run: npm run build
       - name: 部署到PAGES
-        uses: JameIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
          branch: vue-pg
          folder: dist/
